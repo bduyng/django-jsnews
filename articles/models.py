@@ -18,6 +18,9 @@ class Article(models.Model):
     visited_time = models.DateTimeField(null=True, blank=True, editable=False)
     bookmarked_time = models.DateTimeField(null=True, blank=True, editable=False)
 
+    def __str__(self):
+            return self.title
+
     def save(self, *args, **kwargs):
             ''' On save, update timestamps '''
             if not self.id:
