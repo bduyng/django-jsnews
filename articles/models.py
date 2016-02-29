@@ -15,8 +15,8 @@ class Article(models.Model):
     comments = models.IntegerField(default=0)
 
     created_time = models.DateTimeField(editable=False)
-    visited_time = models.DateTimeField(editable=False)
-    bookmarked_time = models.DateTimeField(editable=False)
+    visited_time = models.DateTimeField(null=True, blank=True, editable=False)
+    bookmarked_time = models.DateTimeField(null=True, blank=True, editable=False)
 
     def save(self, *args, **kwargs):
             ''' On save, update timestamps '''
