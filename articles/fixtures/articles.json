@@ -1,0 +1,392 @@
+[
+  {
+    "model": "articles.article",
+    "pk": 1,
+    "fields": {
+      "created_time": "2016-02-29 22:01Z",
+      "comments": 0,
+      "url": "http://facebook.github.io/draft-js/",
+      "title": "Draft.js - Rich Text Editor Framework for React",
+      "down": 0,
+      "up": 22,
+      "username": "xweb"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 2,
+    "fields": {
+      "created_time": "2016-02-29 22:02Z",
+      "comments": 0,
+      "url": "https://tech.instacart.com/why-we-moved-to-react/",
+      "title": "Why we moved to React",
+      "down": 0,
+      "up": 2,
+      "username": "echojs"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 3,
+    "fields": {
+      "created_time": "2016-02-29 22:03Z",
+      "comments": 1,
+      "url": "https://medium.com/nfl-engineers/nfl-react-84e9cd11d384#.nbpdx5l0i",
+      "title": "NFL + React",
+      "down": 0,
+      "up": 7,
+      "username": "dimooze"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 4,
+    "fields": {
+      "created_time": "2016-02-29 22:04Z",
+      "comments": 0,
+      "url": "http://v8project.blogspot.jp/2016/02/regexp-lookbehind-assertions.html",
+      "title": "V8 JavaScript Engine: RegExp lookbehind assertions",
+      "down": 0,
+      "up": 1,
+      "username": "紫云飞"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 5,
+    "fields": {
+      "created_time": "2016-02-29 22:05Z",
+      "comments": 0,
+      "url": "http://tympanus.net/codrops/2016/02/23/icon-animations-powered-by-mo-js/",
+      "title": "Icon Animations Powered by mo.js",
+      "down": 0,
+      "up": 6,
+      "username": "VVega"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 6,
+    "fields": {
+      "created_time": "2016-02-29 22:06Z",
+      "comments": 0,
+      "url": "https://medium.com/@benlesh/async-await-it-s-good-and-bad-15cf121ade40#.1tosqkeq1",
+      "title": "async/await: It’s Good and Bad",
+      "down": 2,
+      "up": 7,
+      "username": "eskimoblood"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 7,
+    "fields": {
+      "created_time": "2016-02-29 22:07Z",
+      "comments": 0,
+      "url": "https://medium.com/@chetcorcos/elmish-functional-programming-in-javascript-50995f1d4b9e#.rz1mpwxeo",
+      "title": "Elmish: Functional Programming in Javascript",
+      "down": 1,
+      "up": 2,
+      "username": "backtobasics"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 8,
+    "fields": {
+      "created_time": "2016-02-29 22:08Z",
+      "comments": 0,
+      "url": "https://github.com/parro-it/awesome-microlibs#modules",
+      "title": "A curated list of small, focused Node.js modules.",
+      "down": 0,
+      "up": 5,
+      "username": "parroit"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 9,
+    "fields": {
+      "created_time": "2016-02-29 22:09Z",
+      "comments": 0,
+      "url": "https://voice.kadira.io/world-of-mantra-60c31d89f76c#.mtk1stj6h",
+      "title": "World of Mantra",
+      "down": 0,
+      "up": 2,
+      "username": "arunoda"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 10,
+    "fields": {
+      "created_time": "2016-02-29 22:10Z",
+      "comments": 0,
+      "url": "http://krasimirtsonev.com/blog/article/constructive-destructuring-es6-assignment",
+      "title": "Constructive destructuring in JavaScript",
+      "down": 0,
+      "up": 6,
+      "username": "krasimir"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 11,
+    "fields": {
+      "created_time": "2016-02-29 22:11Z",
+      "comments": 0,
+      "url": "http://www.2ality.com/2016/02/arrow-functions-vs-bind.html",
+      "title": "Arrow functions vs. bind()",
+      "down": 0,
+      "up": 5,
+      "username": "echojs"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 12,
+    "fields": {
+      "created_time": "2016-02-29 22:12Z",
+      "comments": 0,
+      "url": "http://javascriptplayground.com/blog/2016/02/the-react-webpack-tooling-problem",
+      "title": "Misconceptions of Tooling in JavaScript",
+      "down": 0,
+      "up": 5,
+      "username": "jackfranklin"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 13,
+    "fields": {
+      "created_time": "2016-02-29 22:13Z",
+      "comments": 1,
+      "url": "http://thefullstack.xyz/excellent-javascript-developer/",
+      "title": "The Difference Between Excellent, Good and Bad JavaScript Developers",
+      "down": 1,
+      "up": 7,
+      "username": "dortzur"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 14,
+    "fields": {
+      "created_time": "2016-02-29 22:14Z",
+      "comments": 0,
+      "url": "http://www.sitepoint.com/functional-reactive-programming-rxjs/",
+      "title": "Introduction to Functional Reactive Programming with RxJS",
+      "down": 0,
+      "up": 2,
+      "username": "jaydoubleyou"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 15,
+    "fields": {
+      "created_time": "2016-02-29 22:15Z",
+      "comments": 0,
+      "url": "https://blog.risingstack.com/how-enterprises-benefit-from-microservices-architectures/",
+      "title": "How Enterprises Benefit From Microservices Architectures",
+      "down": 0,
+      "up": 6,
+      "username": "gabornagy"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 16,
+    "fields": {
+      "created_time": "2016-02-29 22:16Z",
+      "comments": 0,
+      "url": "http://www.2ality.com/2016/02/js-fatigue-fatigue.html",
+      "title": "JavaScript fatigue fatigue",
+      "down": 3,
+      "up": 25,
+      "username": "echojs"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 17,
+    "fields": {
+      "created_time": "2016-02-29 22:17Z",
+      "comments": 0,
+      "url": "https://github.com/rtsao/csjs",
+      "title": "CSJS (Cascading Style JavaScripts) - Dead-simple modular, scoped CSS",
+      "down": 0,
+      "up": 4,
+      "username": "rtsao"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 18,
+    "fields": {
+      "created_time": "2016-02-29 22:18Z",
+      "comments": 0,
+      "url": "https://davidwalsh.name/nodejs-services",
+      "title": "Nodal: A Tutorial for Easily Creating API Services in Node.js",
+      "down": 0,
+      "up": 4,
+      "username": "davidwalsh"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 19,
+    "fields": {
+      "created_time": "2016-02-29 22:19Z",
+      "comments": 0,
+      "url": "https://ponyfoo.com/articles/proposal-statements-as-expressions-using-do",
+      "title": "Proposal: \"Statements as Expressions\" using do",
+      "down": 2,
+      "up": 9,
+      "username": "ponyfoo"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 20,
+    "fields": {
+      "created_time": "2016-02-29 22:20Z",
+      "comments": 0,
+      "url": "http://facebook.github.io/react/blog/2016/02/19/new-versioning-scheme.html",
+      "title": "New Versioning Scheme for  React",
+      "down": 2,
+      "up": 11,
+      "username": "eskimoblood"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 21,
+    "fields": {
+      "created_time": "2016-02-29 22:21Z",
+      "comments": 0,
+      "url": "https://restdb.io/docs/random-data-generator",
+      "title": "Mockup data generator, create an online JSON data source in a flash",
+      "down": 1,
+      "up": 3,
+      "username": "jonesrestdb"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 22,
+    "fields": {
+      "created_time": "2016-02-29 22:22Z",
+      "comments": 0,
+      "url": "http://code.hireart.com/2016/02/24/react-native-ios-app/",
+      "title": "Developing our first iOS App with React Native",
+      "down": 0,
+      "up": 1,
+      "username": "xweb"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 23,
+    "fields": {
+      "created_time": "2016-02-29 22:23Z",
+      "comments": 0,
+      "url": "http://blog.thoughtram.io/angular/2016/02/22/angular-2-change-detection-explained.html",
+      "title": "Angular 2 Change Detection Explained",
+      "down": 0,
+      "up": 5,
+      "username": "PascalPrecht"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 24,
+    "fields": {
+      "created_time": "2016-02-29 22:24Z",
+      "comments": 0,
+      "url": "http://jonathancreamer.com/webpack-code-splitting-with-es6-and-babel-6/",
+      "title": "WebPack Code splitting with ES6 and Babel 6",
+      "down": 0,
+      "up": 2,
+      "username": "jcreamer898"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 25,
+    "fields": {
+      "created_time": "2016-02-29 22:25Z",
+      "comments": 0,
+      "url": "http://gtube.de",
+      "title": "The Synthi Builder",
+      "down": 0,
+      "up": 1,
+      "username": "k@1ln.de"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 26,
+    "fields": {
+      "created_time": "2016-02-29 22:26Z",
+      "comments": 0,
+      "url": "https://github.com/loverajoel/jstips/blob/gh-pages/_posts/en/2016-02-26-extract-unix-timestamp-easily.md",
+      "title": "Easiest way to extract unix timestamp in JS",
+      "down": 0,
+      "up": 1,
+      "username": "loverajoel"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 27,
+    "fields": {
+      "created_time": "2016-02-29 22:27Z",
+      "comments": 0,
+      "url": "https://ponyfoo.com/articles/proposal-draft-for-flatten-and-flatmap",
+      "title": "Proposal Draft for .flatten and .flatMap",
+      "down": 1,
+      "up": 12,
+      "username": "ponyfoo"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 28,
+    "fields": {
+      "created_time": "2016-02-29 22:28Z",
+      "comments": 0,
+      "url": "http://tech.evojam.com/2016/02/22/practical-intro-to-monads-in-javascript/",
+      "title": "Practical Intro to Monads in JavaScript",
+      "down": 0,
+      "up": 4,
+      "username": "echojs"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 29,
+    "fields": {
+      "created_time": "2016-02-29 22:29Z",
+      "comments": 0,
+      "url": "https://medium.com/@roman01la/understanding-transducers-in-javascript-3500d3bd9624",
+      "title": "Understanding Transducers in JavaScript",
+      "down": 0,
+      "up": 11,
+      "username": "backtobasics"
+    }
+  },
+  {
+    "model": "articles.article",
+    "pk": 30,
+    "fields": {
+      "created_time": "2016-02-29 22:30Z",
+      "comments": 0,
+      "url": "https://nodejs.org/en/blog/release/v5.7.0/",
+      "title": "Node v5.7.0 (Stable)",
+      "down": 0,
+      "up": 1,
+      "username": "echojs"
+    }
+  }
+]
