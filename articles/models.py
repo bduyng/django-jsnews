@@ -10,9 +10,9 @@ class Article(models.Model):
     title = models.CharField(max_length=1000)
     username = models.CharField(max_length=100)
 
-    up = models.IntegerField(default=0)
-    down = models.IntegerField(default=0)
-    comments = models.IntegerField(default=0)
+    up = models.IntegerField(default=0, editable=False)
+    down = models.IntegerField(default=0, editable=False)
+    comments = models.IntegerField(default=0, editable=False)
 
     created_time = models.DateTimeField(editable=False)
     visited_time = models.DateTimeField(null=True, blank=True, editable=False)
