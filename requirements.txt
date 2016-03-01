@@ -4,7 +4,6 @@ gunicorn==19.4.5
 pbr==1.8.1
 six==1.10.0
 stevedore==1.11.0
-vboxapi
 virtualenv
 virtualenv-clone
 virtualenvwrapper
