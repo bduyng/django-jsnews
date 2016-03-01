@@ -1,25 +1,37 @@
-{% if articles %}
-    <ul>
-    {% for article in articles %}
-        <li><a href="{{ article.url }}/">{{ article.title }}</a></li>
-    {% endfor %}
-    </ul>
-{% else %}
-    <p>No articles are available.</p>
-{% endif %}
+{% extends 'base.html' %}
 
-<div class="pagination">
-    <span class="step-links">
+{% block content %}
+    {% if articles %}
+        <ul>
+        {% for article in articles %}
+            <li><a href="{{ article.url }}/">{{ article.title }}</a></li>
+        {% endfor %}
+        </ul>
+    {% else %}
+        <p>No articles are available.</p>
+    {% endif %}
+
+    {{a.page_range}}
+
+    <ul class="pagination">
         {% if articles.has_previous %}
-            <a href="?page={{ articles.previous_page_number }}">previous</a>
+            <li><a href="?page={{ articles.previous_page_number }}">&laquo;</a></li>
+        {% else %}
+            <li class="disabled"><a href="#">&laquo;</a></li>
         {% endif %}
 
-        <span class="current">
-            Page {{ articles.number }} of {{ articles.paginator.num_pages }}.
-        </span>
+        {% for i in paginator.page_range %}
+            {% if articles.number == i %}
+                <li class="active"><a href="?page={{ i }}">{{ i }}</a></li>
+            {% else %}
+                <li><a href="?page={{ i }}">{{ i }}</a></li>
+            {% endif %}
+        {% endfor %}
 
         {% if articles.has_next %}
-            <a href="?page={{ articles.next_page_number }}">next</a>
+            <li><a href="?page={{ articles.next_page_number }}">&raquo;</a></li>
+        {% else %}
+            <li class="disabled"><a href="#">&raquo;</a></li>
         {% endif %}
-    </span>
-</div>
+    </ul>
+{% endblock %}

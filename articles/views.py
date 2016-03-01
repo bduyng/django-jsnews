@@ -16,4 +16,7 @@ def index(request):
         # If page is out of range (e.g. 9999), deliver last page of results.
         articles = paginator.page(paginator.num_pages)
 
-    return render(request, 'articles/index.html', {'articles': articles})
+    return render(request, 'articles/index.html', {
+        'articles': articles,
+        'paginator': paginator
+    })
