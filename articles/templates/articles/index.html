@@ -8,7 +8,11 @@
                 {% for article in articles %}
                     <article class="col-md-6 col-md-offset-3">
                         <a href="{{ article.url }}/">{{ article.title }}</a>
-                        <p>&#x25B2; {{ article.up }} &#x2022; {{ article.username }} &#x2022; {{ article.created_time }}</p>
+                        <p>
+                            &#x25B2; {{ article.up }}
+                            &#x2022; {{ article.username }}
+                            &#x2022; <span class="created_time">{{ article.created_time }}</span>
+                        </p>
                         <hr>
                     </article>
                 {% endfor %}
@@ -41,4 +45,13 @@
             {% endif %}
         </div>
     </div>
+{% endblock %}
+
+{% block javascript %}
+    <script>
+        $('.created_time').each(function (i) {
+            var created_time = $(this).text();
+            $(this).text(moment(created_time).fromNow());
+        })
+    </script>
 {% endblock %}

@@ -16,6 +16,9 @@ def index(request):
         # If page is out of range (e.g. 9999), deliver last page of results.
         articles = paginator.page(paginator.num_pages)
 
+    # convert created_time
+    for article in articles.object_list:
+        article.created_time = article.created_time.strftime("%Y-%m-%dT%H:%M:%S")
     return render(request, 'articles/index.html', {
         'articles': articles,
         'paginator': paginator
