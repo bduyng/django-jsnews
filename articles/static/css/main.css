@@ -1,0 +1,11 @@
+article {
+    padding-bottom: 1em;
+}
+
+article:last-child hr {
+    display: none;
+}
+
+.navbar {
+    border-radius: 0
+}
