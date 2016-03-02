@@ -27,7 +27,10 @@ class LoginForm(AuthenticationForm):
 
 
 class RegisterForm(UserCreationForm):
-        username = forms.CharField(
+    def __init__(self, *args, **kwargs):
+        super(RegisterForm, self).__init__(*args, **kwargs)
+
+        self.fields['username'] = forms.CharField(
             label='Email',
             max_length=254,
             widget=forms.TextInput(attrs={
@@ -37,7 +40,7 @@ class RegisterForm(UserCreationForm):
                 'type': 'text'
             })
         )
-        password1 = forms.CharField(
+        self.fields['password1'] = forms.CharField(
             label='Password',
             max_length=254,
             widget=forms.TextInput(attrs={
@@ -47,7 +50,7 @@ class RegisterForm(UserCreationForm):
                 'type': 'password'
             })
         )
-        password2 = forms.CharField(
+        self.fields['password2'] = forms.CharField(
             label='Password Confirmation',
             max_length=254,
             widget=forms.TextInput(attrs={
