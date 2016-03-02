@@ -22,6 +22,12 @@
                         <span class="icon-bar"></span>
                     </button>
                     <a class="navbar-brand" href="/">JS News</a>
+                    <ul class="nav navbar-nav">
+                    <li class="active"><a href="?sortedBy=-created_time">Latest</a></li>
+                        <li><a href="?sortedBy=-up">Top</a></li>
+                        <li><a href="?sortedBy=?">Ramdom</a></li>
+                        <li><a href="#">Submit</a></li>
+                    </ul>
                 </div>
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     {% if user.is_authenticated %}
