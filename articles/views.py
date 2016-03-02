@@ -1,10 +1,13 @@
+from random import shuffle
 from django.core.paginator import Paginator, EmptyPage, PageNotAnInteger
 from django.shortcuts import render
 from .models import Article
 
 
 def index(request):
-    latest_article_list = Article.objects.order_by('-created_time')
+    sortedBy = request.GET.get("sortedBy", "-created_time")
+    latest_article_list = Article.objects.order_by(sortedBy)
+
     paginator = Paginator(latest_article_list, 5)
     page = request.GET.get('page')
     try:

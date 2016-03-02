@@ -5,12 +5,12 @@ from django import forms
 # If you don't do this you cannot use Bootstrap CSS
 class LoginForm(AuthenticationForm):
     username = forms.CharField(
-        label='Email',
+        label='Username',
         max_length=254,
         widget=forms.TextInput(attrs={
             'class': 'form-control',
             'name': 'username',
-            'placeholder': 'Email',
+            'placeholder': 'Username',
             'type': 'text'
         })
     )
@@ -31,12 +31,12 @@ class RegisterForm(UserCreationForm):
         super(RegisterForm, self).__init__(*args, **kwargs)
 
         self.fields['username'] = forms.CharField(
-            label='Email',
+            label='Username',
             max_length=254,
             widget=forms.TextInput(attrs={
                 'class': 'form-control',
                 'name': 'username',
-                'placeholder': 'Email',
+                'placeholder': 'Username',
                 'type': 'text'
             })
         )
