@@ -14,3 +14,9 @@ parts
 media/uploads
 tmp
 .DS_Store
+
+# https://devcenter.heroku.com/articles/deploying-python#how-to-keep-build-artifacts-out-of-git
+venv
+*.pyc
+staticfiles
+.env
